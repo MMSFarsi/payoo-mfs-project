@@ -11,7 +11,7 @@ document.getElementById('login-btn').addEventListener('click',function(event){
     console.log(pinCode)
 
     if(phoneNumber==='01627079794' && pinCode==='552288'){
-        window.location.href = '/home.html'
+        window.location.href = 'home.html'
     }else{
         alert('wrong pass or pin')
     }
